@@ -1,6 +1,6 @@
 const inputsDiv = document.getElementById('inputs');
 const shapeSelect = document.getElementById('shape');
-const shapeImage = document.getElementById('shape-image').src="images";
+const shapeImage = document.getElementById('shape-image');
 
 const shapeInputs = {
   cube: ['Side Length'],
@@ -79,3 +79,4 @@ function calculateArea() {
 
   document.getElementById('result').textContent = `Surface Area of ${shape.charAt(0).toUpperCase() + shape.slice(1)}: ${area.toFixed(2)}`;
 }
+
